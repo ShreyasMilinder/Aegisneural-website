@@ -2,14 +2,21 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="bg-white shadow-lg py-4">
+    <header className="bg-black shadow-lg py-4">
       <nav className="container mx-auto flex justify-between items-center">
-        <h1 className="text-3xl font-semibold">AegisNeural Learning</h1>
+        {/* Make the image bigger */}
+        <a href="/">
+          <img
+            src="/Screenshot 2024-09-10 144351.jpg" 
+            alt="AegisNeural Logo"
+            className="h-20 w-auto"  // Increase height to make the image bigger
+          />
+        </a>
         <ul className="flex space-x-8 text-lg font-medium">
-          <li><a href="#" className="nav-link">Candidate Login</a></li>
-          <li><a href="#" className="nav-link">Admin Login</a></li>
-          <li><a href="#" className="nav-link">Courses</a></li>
-          <li><a href="#" className="nav-link">Contact Us</a></li>
+          <li><a href="#" className="nav-link text-white">Candidate Login</a></li>
+          <li><a href="#" className="nav-link text-white">Admin Login</a></li>
+          <li><a href="#" className="nav-link text-white">Courses</a></li>
+          <li><a href="#" className="nav-link text-white">Contact Us</a></li>
         </ul>
       </nav>
     </header>

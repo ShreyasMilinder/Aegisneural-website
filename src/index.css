@@ -2,6 +2,6 @@
 
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
 }
