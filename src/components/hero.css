@@ -1,0 +1,16 @@
+/* src/components/Hero.css */
+
+.hero {
+    background-image: url('../assets/Background_1.jpeg'); /* Path relative to CSS file location */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    min-height: 60vh; /* Adjust height as needed */
+    padding: 2rem; /* Add padding as needed */
+    color: #fff; /* Ensure text is visible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
