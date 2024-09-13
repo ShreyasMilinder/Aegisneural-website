@@ -48,33 +48,17 @@ Modern UI/UX: Styled using Tailwind CSS and Bootstrap for a clean and profession
 
 To get the project running on your local machine, follow these steps:
 
-Clone the repository:
+**Clone the repository:**
 
 git clone https://github.com/ShreyasMilinder/aegisneural-website.git
+
 cd aegisneural-website
 
 Install dependencies: If you are using React or Node.js:
 
-bash
 npm install
 
-Run the development server:
+**Run the development server:**
 
 npm start
 The app will run on http://localhost:3000.
-
-Usage
-Once the website is running locally or deployed:
-
-Navigate to the Candidate or Admin login section to access their respective dashboards.
-Explore the available courses and view assignments or performance metrics.
-Use the contact form for inquiries.
-Contributing
-If you'd like to contribute to the project:
-
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Create a Pull Request.
