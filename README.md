@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+**AegisNeural Website**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the AegisNeural Learning Platform! This website serves as a comprehensive platform for candidates and admins to manage their learning journey, featuring modules like Candidate Login, Admin Login, Courses, and Contact Us. It is designed to display key information such as upcoming classes, assignments, notifications, and performance metrics.
 
-## Available Scripts
+**Table of Contents**
 
-In the project directory, you can run:
+_Project Overview_
 
-### `npm start`
+Tech Stack
+Features
+Installation
+Usage
+Contributing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+_Project Overview_
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The AegisNeural website is inspired by the sleek and responsive design of Samsung's homepage, providing an intuitive and user-friendly interface for managing learning-related information. It is a full-stack web application developed using modern web technologies.
 
-### `npm test`
+The key functionalities include:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Candidate Login: Personalized dashboard for learners.
+Admin Login: Admin dashboard for managing courses, students, and notifications.
+Courses Module: List of courses with details like assignments, schedules, and performance tracking.
+Notifications & Alerts: Keep track of upcoming assignments and classes.
+Contact Us: Information for getting in touch with AegisNeural for support or inquiries.
+Tech Stack
+The project is built using the following technologies:
 
-### `npm run build`
+**Frontend:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+HTML5: Markup language for structuring the webpage.
+CSS3: Styling the website using standard CSS along with frameworks.
+Bootstrap: For responsive design and grid layout.
+Tailwind CSS: Utility-first CSS framework to speed up UI design.
+React.js: JavaScript library for building interactive user interfaces.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Tools:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+GitHub: For version control and code hosting.
+Vercel/Netlify (or similar services): For deployment (optional).
+Features
+Modular Design: Separate components for Header, Hero, Cards, Footer, etc.
+Responsive Layout: Optimized for desktop and mobile views.
+React Components: Reusable and scalable components for efficient development.
+Modern UI/UX: Styled using Tailwind CSS and Bootstrap for a clean and professional look.
 
-### `npm run eject`
+**Installation**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get the project running on your local machine, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+git clone https://github.com/ShreyasMilinder/aegisneural-website.git
+cd aegisneural-website
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install dependencies: If you are using React or Node.js:
 
-## Learn More
+bash
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
+The app will run on http://localhost:3000.
 
-### Code Splitting
+Usage
+Once the website is running locally or deployed:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Navigate to the Candidate or Admin login section to access their respective dashboards.
+Explore the available courses and view assignments or performance metrics.
+Use the contact form for inquiries.
+Contributing
+If you'd like to contribute to the project:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit your changes (git commit -m 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a Pull Request.
