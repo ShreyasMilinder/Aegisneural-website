@@ -18,11 +18,13 @@
   font-size: 1.25rem;
   border-radius: 8px;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .btn-primary:hover {
+  transform: translateY(-5px); /* Pop-up effect */
   background-color: #ddd;
+  box-shadow: 0 0 20px rgba(6, 174, 211, 0.8);
 }
 
 .card {
